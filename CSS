@@ -1,0 +1,45 @@
+<!-- 3 WAYS TO ADD CSS IN HTML
+eg 1 styling that individual h2 element with inline CSS,  -->
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <title> Example one</title>
+  </head>
+  <body>
+    <H2 style="color: red;">Example one </h2>
+  </body>
+  </html>
+	
+<!-- eg 2  Inside that style block, you can create a CSS selector for all h2 elements. For example, if you wanted all h2 elements to be red, you would add a style rule that looks like t -->
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title> Example one</title>
+  <style>
+    h2 {color: blue;}
+    p {color: blue;}
+  </style>
+</head>
+<body> 
+  <h2> text </h2> <!-- color gets blue -->
+  <p> paragraph </p> <!-- color gets blue -->
+</body>
+</html>
+
+
+<!-- eg 3 Note that in your CSS style element, class names start with a period. In your HTML elements' class attribute, the class name does not include the period.  
+Filter only Some elements  -->
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <title> Example Three</title>
+    <style>
+      .onlyparagraphs {color: green;}
+    </style>
+  </head>
+<body>
+  <p class="onlyparagraphs">paragraph1</p> <!-- color gets green -->
+  <h1>HEADING</h2><!-- no changes -->
+  <p class="onlyparagraphs">paragragh2</p> <!-- color gets green -->
+</body>
+</html>
