@@ -1,1 +1,8 @@
 <p> Google was founded by <em> Larry Page </em> and Sergey Bri </p> 
+"<em>" applies the CSS of font-style: italic; to the element.
+
+<p>Ph.D. students at <strong> Stanford University</strong>.</p>
+"<strong>" applies the CSS of font-weight: bold;
+
+<p>Google was founded by <u>Larry Page</u> and Sergey Brin</p> 
+"<u>"applies the CSS of text-decoration: underline; to the element.
