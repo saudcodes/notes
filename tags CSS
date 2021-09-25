@@ -6,3 +6,6 @@
 
 <p>Google was founded by <u>Larry Page</u> and Sergey Brin</p> 
 "<u>"applies the CSS of text-decoration: underline; to the element.
+
+<h2> <s>Google</s> Alphabet </h2>
+"<s>"applies the CSS of text-decoration: line-through; to the element.
