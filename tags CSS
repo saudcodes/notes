@@ -9,3 +9,7 @@
 
 <h2> <s>Google</s> Alphabet </h2>
 "<s>"applies the CSS of text-decoration: line-through; to the element.
+
+
+The font-weight property sets how thick or thin characters are in a section of text.
+
