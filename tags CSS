@@ -13,3 +13,9 @@
 
 The font-weight property sets how thick or thin characters are in a section of text.
 
+"<hr>" CSS styling = 
+
+hr {
+  border-top: 1px solid red;
+}
+
