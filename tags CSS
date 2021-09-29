@@ -13,9 +13,31 @@
 
 The font-weight property sets how thick or thin characters are in a section of text.
 
-"<hr>" CSS styling = 
+"<hr>" CSS styling = DIVIDER
 
 hr {
   border-top: 1px solid red;
 }
+
+
+
+COLUMN SIDE BY SIDE
+
+#left {
+  float: left;
+  width: 50%;
+}
+
+#right {
+  float: right;
+  width: 40%;
+}
+
+aside, section {
+  padding: 2px;
+  background-color: #ccc;
+}
+
+
+
 
