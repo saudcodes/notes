@@ -14,3 +14,11 @@ function random() {
 document.body.style.backgroundColor = color;
       })
         
+
+document.queryselector("#container") - //takes the div  from html  file
+dcument.createElement("div") - //creates a new div we can store it in some variable
+variable.classList.add("content") -// adds class to tthe  craeted div
+variable.textConetennt = "This is a text"- //addstext to selected variable in htm;
+div.style.cssText = "color: blue; " - //adds css rules to selected .class
+
+Container.appendChild (vvariable); - //places the variable in a div
